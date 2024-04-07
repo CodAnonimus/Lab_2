@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+
+    int a, b, c;
+    double y;
+
+    printf("Введіть значення a = ");
+    scanf("%d", &a);
+    
+    printf("Введіть значення b = ");
+    scanf("%d", &b);
+
+    printf("Введіть значення c = ");
+    scanf("%d", &c);
+
+    y = (double) ((c * a) / a + b) + ((b * c) / c + a);
+    
+    printf("y= %.2f" , y);
+    return 0;
+}
