@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    double num1, num2;
+    
+    // Введення даних
+    printf("Введіть перше число: ");
+    scanf("%lf", &num1);
+    printf("Введіть друге число: ");
+    scanf("%lf", &num2);
+    
+    // Обчислення та виведення результатів
+    printf("\n");
+    printf("Різниця 2-го числа та 1-го: %.2lf\n", num2 - num1);
+    printf("Середнє арифметичне двох чисел: %.2lf\n", (num1 + num2) / 2);
+    printf("Сума чисел: %.2lf\n", num1 + num2);
+    
+    return 0;
+}
